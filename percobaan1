@@ -41,7 +41,7 @@ while(command == 0);
 }
 }
 int readCommandFromSerial(){
-char stringFromSerial[1000];
+char stringFromSerial[10];
 char data;
 int command;
 int countData=0;
